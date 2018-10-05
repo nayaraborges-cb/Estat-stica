@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <style>
+        nav ul{
+            /*tira a bolinha da lista*/
+            list-style: none;
+            /*espaço da ul até o top*/
+            margin-top: 50px;
+        }
+        nav ul li{
+            /*item flutuando para a esquerda*/
+            float: left;
+            /*tamanha de 33% do total de espaço*/
+            width: 33.3%;
+        }
+        nav ul li a{
+            /*centralizar o elemento no meio dos 33.3%*/
+            margin: auto;
+            display: block;
+            /*tamanho do elemento*/
+            width: 150px;
+            /*tamanho maximo do elemento*/
+            max-width: 100%;
+            /*alinha o texto no centro do elemento*/
+            text-align: center;
+            /*espaço interno do elemento*/
+            padding: 10px 0;
+            /*cor da fonte*/
+            color: #fff;
+        }
+
+        nav ul li.descritiva a{
+            /*cor para elemento especifico*/
+            background-color: red;
+        }
+        nav ul li.probabilidade a{
+            /*cor para elemento especifico*/
+            background-color: blue;
+        }
+        nav ul li.indutiva a{
+            /*cor para elemento especifico*/
+            background-color: green;
+        }
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        <ul>
+
+            <li class="descritiva">
+                <a href="descritiva.html"> Descritiva</a>
+            </li>
+            <li class="probabilidade">
+                <a href="probabilidade.html"> Probabilidade</a>
+            </li>
+            <li class="indutiva">
+                <a href="indutiva.html"> Indutiva</a>
+            </li>
+        </ul>
+    </nav>
+
+</body>
+</html>
